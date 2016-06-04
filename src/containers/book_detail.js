@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-class BookDetail extends React.Component {
+class BookDetail extends React.Component { // eslint-disable-line
   render() {
     if (!this.props.book) {
       return <div>Select a book to see details.</div>;
